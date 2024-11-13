@@ -1,0 +1,60 @@
+:root {
+
+    /* VARIAVEIS DE CORES */
+
+    --cor-preto-nav-bar: #000000;
+    --cor-preto-fundo: #0f0f0f;
+
+    /* VARIAVEIS DE FONTES */
+
+    --fonte-nav-bar: monospace, sans-serif;
+}
+
+body {
+    background-color: var(--cor-preto-fundo);
+}
+
+/* RESET CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* CSS DO HEADER */
+
+.cabecalho {
+    display: flex;
+    background-color: var(--cor-branco-cinza);
+    padding: 2rem;
+    justify-content: space-between;
+    background-color: var(--cor-preto-nav-bar);
+
+    font-family: var(--fonte-nav-bar);
+}
+
+.cabecalho__itens {
+    padding-right: 2rem;
+    color: aqua;
+ 
+}
+
+.cabecalho__item {
+    font-size: 1.2em;
+    padding: 0.8rem;
+    align-items: right;
+    color: var(--cor-marrom-claro);
+    text-decoration: none;
+}
+
+.cabecalho__item__divisao {
+    text-decoration: none;
+    color: white;
+}
+
+.logomarca {
+    padding-left: 2.5rem;
+    height: 150px;
+    width: 150px;
+}
