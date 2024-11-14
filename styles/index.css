@@ -25,6 +25,13 @@ body {
     color: white;
 }
 
+.divisao__secoes {
+    border: 0; /* Remove a borda padrão */
+    height: 2px; /* Define a altura da linha */
+    background-color: #ffffff; /* Define a cor da linha */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
 /* CSS DO HEADER */
 
 .cabecalho {
@@ -96,4 +103,57 @@ body {
 
 .destaque {
     color: var(--cor-azul-fonte);
+}
+
+
+
+
+
+/* CSS SEÇÃO 2 - TECNOLOGIAS */
+
+.secao2__tecnologias__titulo {
+    font-size: 3.5em;
+    text-align: center;
+    padding: 2rem;
+    font-family: var(--fonte-nav-bar);
+}
+
+.secao2__card_html {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secao2__card_html__logo {
+    padding-left: 2rem;
+}
+
+.secao2__card__titulo {
+    font-family: var(--fonte-nav-bar);
+    font-size: 2.8rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.secao2__card__texto {
+    padding: 2rem 2rem 0px 0px;
+    width: 40vw;
+    text-align: center;
+}
+
+.secao2__bloco__texto__html {
+    font-family: var(--fonte-nav-bar);
+    font-size: 1.5rem;
+}
+
+.logo-js {
+    height: 500px;
+}
+
+.logo-sql {
+    height: 300px;
+}
+
+.logo-python {
+    height: 500px;
 }
