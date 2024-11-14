@@ -5,13 +5,12 @@
     --cor-preto-nav-bar: #000000;
     --cor-preto-fundo: #0f0f0f;
 
+    --cor-azul-fonte: aqua;
+    --cor-azul-claro-fonte: #317a8b;
+
     /* VARIAVEIS DE FONTES */
 
     --fonte-nav-bar: monospace, sans-serif;
-}
-
-body {
-    background-color: var(--cor-preto-fundo);
 }
 
 /* RESET CSS */
@@ -21,12 +20,15 @@ body {
     margin: 0;
 }
 
+body {
+    background-color: var(--cor-preto-fundo);
+    color: white;
+}
 
 /* CSS DO HEADER */
 
 .cabecalho {
     display: flex;
-    background-color: var(--cor-branco-cinza);
     padding: 2rem;
     justify-content: space-between;
     background-color: var(--cor-preto-nav-bar);
@@ -34,18 +36,24 @@ body {
     font-family: var(--fonte-nav-bar);
 }
 
+.cabecalho__botao__home {
+    font-size: 1.8rem;
+    padding-left: 3rem;
+    text-decoration: none;
+}
+
 .cabecalho__itens {
     padding-right: 2rem;
     color: aqua;
- 
 }
 
 .cabecalho__item {
-    font-size: 1.2em;
+    font-size: 1.4em;
     padding: 0.8rem;
     align-items: right;
-    color: var(--cor-marrom-claro);
+    color: var(--cor-azul-fonte);
     text-decoration: none;
+    font-family: var(--fonte-nav-bar);
 }
 
 .cabecalho__item__divisao {
@@ -53,8 +61,39 @@ body {
     color: white;
 }
 
-.logomarca {
-    padding-left: 2.5rem;
-    height: 150px;
-    width: 150px;
+
+
+
+
+/* CSS SEÇÃO 1 - BANNER */
+
+
+.secao1__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secao1__card__box1 {
+    padding: 2rem 0px 5rem 5rem;
+    font-family: var(--fonte-nav-bar);
+}
+
+.secao1__card__box1__titulo {
+    font-size: 4em;
+    color: var(--cor-azul-claro-fonte);
+}
+
+.secao1__card__box1__texto {
+    font-size: 2.5em;
+}
+
+.secao1__card__box2__imagem {
+    height: 800px;
+    width: 800px;
+}
+
+.destaque {
+    color: var(--cor-azul-fonte);
 }
