@@ -25,6 +25,10 @@ body {
     color: white;
 }
 
+.destaque {
+    color: var(--cor-azul-fonte);
+}
+
 .divisao__secoes {
     border: 0; /* Remove a borda padrão */
     height: 2px; /* Define a altura da linha */
@@ -113,12 +117,6 @@ body {
     height: 800px;
     width: 800px;
 }
-
-.destaque {
-    color: var(--cor-azul-fonte);
-}
-
-
 
 
 

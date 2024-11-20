@@ -25,6 +25,10 @@ body {
     color: white;
 }
 
+.destaque {
+    color: var(--cor-azul-fonte);
+}
+
 .divisao__secoes {
     border: 0; /* Remove a borda padrão */
     height: 2px; /* Define a altura da linha */
@@ -84,6 +88,42 @@ body {
 
 
 
+
+/* CSS SEÇÃO 1 - DOAÇÃO */
+
+.box__cafe {
+    background-color: black;
+    margin: 3rem;
+    border-radius: 16px;
+    border: solid, aqua;
+}
+
+.card__cafe__titulo {
+    font-family: var(--fonte-nav-bar);
+    font-size: 3em;
+    padding: 2rem;
+    text-align: center;
+}
+
+.card__cafe__div {
+    display: flex;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.gif-cafe {
+    height: 400px;
+    border-radius: 16px;
+    border: solid, aqua;
+    margin: 3rem;
+}
+
+.card__cafe__texto {
+    font-family: var(--fonte-nav-bar);
+    font-size: 1.4em;
+    padding: 2rem;
+    text-align: center;
+}
 
 
 /* CSS RODAPE */
