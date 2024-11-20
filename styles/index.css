@@ -34,15 +34,6 @@ body {
 
 /* CSS DO HEADER */
 
-.cafe {
-    color: white;
-    padding: 0px 1rem 0px 3rem;
-}
-
-.cafe__icon {
-    height: 1.8rem;
-}
-
 .cabecalho {
     display: flex;
     padding: 2rem;
@@ -50,6 +41,20 @@ body {
     background-color: var(--cor-preto-nav-bar);
 
     font-family: var(--fonte-nav-bar);
+}
+
+.cabecalho__esquerda {
+    display: flex;
+    align-items: center;
+}
+
+.cafe {
+    color: white;
+    padding: 0px 1rem 0px 0rem;
+}
+
+.cafe__icon {
+    height: 1.8rem;
 }
 
 .cabecalho__botao__home {
