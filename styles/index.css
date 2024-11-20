@@ -171,19 +171,72 @@ body {
     height: 500px;
 }
 
+/* CSS SEÇÃO 3 - PROJETOS */
+
 .box1 {
-    display: flex;
-    flex-direction: column;
     background-color: black;
     font-size: 36px;
-    align-items: center;
-    margin: 1rem;
+    margin: 2rem;
     border-radius: 16px;
     border: solid;
     border-color: var(--cor-azul-claro-fonte);
 }
 
+.box1__card1 {
+    display: flex;
+    padding: 1rem;
+}
+
 .box1__titulo {
     font-family: var(--fonte-nav-bar);
     padding: 2rem;
+    text-align: center;
+    padding-top: 3rem;
 }
+
+.box1__card1__imagem {
+    width: 800px;
+    padding: 2rem;
+}
+
+.box1__card1__texto {
+    font-family: var(--fonte-nav-bar);
+    font-size: 0.8em;
+    padding: 2rem 3rem 2rem 3rem;
+    text-align: center;
+}
+
+.box__botoes {
+    text-decoration: none;
+    margin: 2rem;
+}
+
+.box2__card2__imagem {
+    height: 400px;
+    width: 800px;
+    padding: 2rem;
+}
+
+.boxgif__card1 {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+
+
+
+/* CSS RODAPE */
+
+.rodape {
+    background-color: #000000;
+}
+
+.rodape__titulo {
+    font-family: var(--fonte-nav-bar);
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
