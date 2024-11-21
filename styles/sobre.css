@@ -88,6 +88,35 @@ body {
 
 
 
+/* CSS SEÇÃO - SOBRE */
+
+.secao__sobre__esquerda {
+    display: flex;
+    margin: 10rem;
+    vertical-align: middle;
+}
+
+.secao__sobre__titulo {
+    font-family: var(--fonte-nav-bar);
+    font-size: 3em;
+    text-align: center;
+}
+
+.secao__sobre__texto {
+    font-family: var(--fonte-nav-bar);
+    font-size: 1.8em;
+    padding-left: 5rem;
+    padding-right: 10rem;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.sobre__foto__perfil {
+    border-radius: 1rem;
+    border: solid, aqua;
+    height: 500px;
+}
+
 
 /* CSS RODAPE */
 
