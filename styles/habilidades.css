@@ -1,0 +1,184 @@
+:root {
+
+    /* VARIAVEIS DE CORES */
+
+    --cor-preto-nav-bar: #000000;
+    --cor-preto-fundo: #0f0f0f;
+
+    --cor-azul-fonte: aqua;
+    --cor-azul-claro-fonte: #317a8b;
+
+    /* VARIAVEIS DE FONTES */
+
+    --fonte-nav-bar: monospace, sans-serif;
+}
+
+/* RESET CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--cor-preto-fundo);
+    color: white;
+}
+
+.destaque {
+    color: var(--cor-azul-fonte);
+}
+
+.divisao__secoes {
+    border: 0; /* Remove a borda padrão */
+    height: 2px; /* Define a altura da linha */
+    background-color: #ffffff; /* Define a cor da linha */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* CSS DO HEADER */
+
+.cabecalho {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    background-color: var(--cor-preto-nav-bar);
+
+    font-family: var(--fonte-nav-bar);
+}
+
+.cabecalho__esquerda {
+    display: flex;
+    align-items: center;
+}
+
+.cafe {
+    color: white;
+    padding: 0px 1rem 0px 0rem;
+}
+
+.cafe__icon {
+    height: 1.8rem;
+}
+
+.cabecalho__botao__home {
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.cabecalho__itens {
+    padding-right: 2rem;
+    color: var(--cor-azul-fonte);
+}
+
+.cabecalho__item {
+    font-size: 1.4em;
+    padding: 0.8rem;
+    align-items: right;
+    color: var(--cor-azul-fonte);
+    text-decoration: none;
+    font-family: var(--fonte-nav-bar);
+}
+
+.cabecalho__item__divisao {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* CSS SECAO 1 - HABILIDADES */
+
+.habilidades__titulo {
+    font-family: var(--fonte-nav-bar);
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.linguaguens__card {
+    background-color: black;
+    margin: 2rem;
+    border-radius: 16px;
+    border: solid, aqua;
+    padding: 2rem;
+}
+
+.linguaguens__titulo {
+    font-family: var(--fonte-nav-bar);
+    font-size: 2em;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.linguaguens {
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--fonte-nav-bar);
+    font-size: 1.3em;
+    text-align: center;
+    color: #317a8b;
+}
+
+.linguaguens__logo {
+    height: 8rem;
+    padding: 1rem;
+}
+
+.python-logo {
+    height: 10rem;
+}
+
+.sql-logo {
+    height: 4rem;
+    padding: 2rem;
+}
+
+
+/* CSS RODAPE */
+
+.rodape {
+    background-color: #000000;
+}
+
+.rodape__titulo {
+    font-family: var(--fonte-nav-bar);
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.rodape__links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape__links__link {
+    display: flex;
+    text-decoration: none;
+    font-family: var(--fonte-nav-bar);
+    font-size: 1.5em;
+    padding: 0.5rem;
+    color: var(--cor-azul-fonte);
+}
+
+.github-icon {
+    height: 30px;
+    width: 30px;
+    padding-right: 0.5rem;
+}
+
+.linkedin-icon {
+    height: 30px;
+    width: 30px;
+    padding-right: 0.5rem;
+}
+
+.instagram-icon {
+    height: 30px;
+    width: 30px;
+    padding-right: 0.5rem;
+}
