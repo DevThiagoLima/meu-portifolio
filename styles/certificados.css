@@ -87,6 +87,58 @@ body {
 
 
 
+/* CSS SEÇÃO 1 - CERTIFICADOS */
+
+
+.certificado__titulo {
+    text-align: center;
+    font-family: var(--fonte-nav-bar);
+    font-size: 3rem;
+    font-style: italic;
+    padding: 2rem;
+    padding-bottom: 0rem;
+}
+
+.certificado__card {
+    background-color: black;
+    margin: 2rem 5rem 3rem 5rem;
+    padding: 0rem 4rem;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 16px;
+    border: solid, aqua;
+}
+
+.certificado__foto {
+    padding: 1.5rem 1.5rem 1.5rem 0rem;
+}
+
+.certificado__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.certificado__div__titulo {
+    font-family: var(--fonte-nav-bar);
+    font-size: 2em;
+    text-align: center;
+}
+
+.certificado__div__texto {
+    font-family: var(--fonte-nav-bar);
+    font-size: 1.25em;
+    padding: 2rem;
+    text-align: center;
+}
+
+.certificado__div__link {
+    text-decoration: none;
+    font-family: var(--fonte-nav-bar);
+    font-size: 1.5em;
+    text-align: center;
+    color: #317a8b;
+}
 
 
 /* CSS RODAPE */
