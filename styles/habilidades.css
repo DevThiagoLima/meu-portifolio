@@ -80,6 +80,10 @@ body {
     font-family: var(--fonte-nav-bar);
 }
 
+.cabecalho__item:hover {
+    color: #317a8b;
+}
+
 .cabecalho__item__divisao {
     text-decoration: none;
     color: white;
@@ -163,6 +167,10 @@ body {
     font-size: 1.5em;
     padding: 0.5rem;
     color: var(--cor-azul-fonte);
+}
+
+.rodape__links__link:hover {
+    color: #317a8b;
 }
 
 .github-icon {
